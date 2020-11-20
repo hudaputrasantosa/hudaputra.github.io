@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portofolioku</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+   <style type="text/css">
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+   scroll-behavior: smooth;
+}
+
+*{
+box-sizing: border-box;
+}
+
+ul{
+   list-style: none;
+}
+li{
+   text-decoration: none;
+}
+a{
+   text-decoration: none;
+}
+#main{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.02);
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+   background-color: rgb(253, 254, 255);
+}
+.logo img{
+height: 45px;
+}
+nav ul{
+   display: flex;
+}
+nav ul li a{
+   height: 40px;
+   line-height: 43px;
+   margin: 3px;
+   padding: 0px 22px;
+   display: flex;
+   font-size: 0.8rem;
+   text-transform: uppercase;
+   font-weight: 500;
+   color: #585b5b;
+   letter-spacing: 1px;
+}
+nav ul li a:hover{
+   background-color:rgb(75, 206, 250);
+   color: #ffffff;
+   /* box-shadow: 5px 10px 15px rgba(64, 160, 198, 0.3); */
+   transition: all ease 0.2s;
+   border-radius: 4px;
+}
+.model img{
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+.model{
+   width: 500px;
+   height: 500px;
+}
+.content{
+   width: 90%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+.main{
+   width: 500px;
+}
+.main-text h1{
+ font-size: 3.5rem;
+ color: #1c3548;
+ margin: 0px 0px 10px 0px;
+ line-height: 60px;
+
+}
+.main-text{
+   color: #747474;
+}
+.btn-portofolio{
+   padding: 11px 12px 11px 12px;
+   margin-right: 10px;
+   justify-content: center;
+   color: #ffffff;
+   font-size: 1.15rem;
+   align-items: center;
+   background-color: rgb(75, 206, 250);
+   border-radius: 5px;
+}
+.btn-portofolio:hover{
+   background-color: rgb(60, 185, 226);
+   transition: all ease 0.2s;
+} 
+#skill{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 90%;
+   margin: auto auto 50px auto;
+}
+.skill-text{
+   width: 400px;
+}
+.skill-img{
+   width: 600px;
+   height: 600px;
+}
+.skill-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.skill-heading span{
+color: #336b73;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 1.5rem;
+}
+.skill-heading h2{
+   color: #1c3548;
+   font-size: 3rem;
+   margin: 0px;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+.s-box-container{
+   margin-top: 30px;
+}
+.skill-box{
+   display: flex;
+   margin: 7px 0px;
+}
+.s-box-text strong{
+   color:#1c3548;
+   font-size: 1.25rem;
+   font-weight: 600;
+}
+.s-box-text p{
+   color:#747474;
+   font-size: 1rem;
+   margin: 3px 0px 15px;
+}
+.btn-skill{
+   width: 50px;
+   height: 50px;
+   color: #ffffff;
+   font-size: 0.95rem;
+   margin: 0px 7px;
+   padding: 3px 8px 3px 8px;
+   background-color:rgb(60, 185, 226);
+   border-radius: 50px;
+}
+.btn-skill:hover{
+   background: none;
+   color: #298dbb;
+   border: 2px solid rgb(60, 185, 226);
+   background-clip: border-box;
+   font-weight: 500;
+   border-radius: 50px;
+}
+
+   </style>
+</head>
+
+<body>
+   <section id="main">
+      <nav>
+         <!-- Logo -->
+         <a href="#main" class="logo">
+            <img src="logos.png" alt="Logo">
+         </a>
+         <ul class="menu">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+         <!-- <a href="#" class="hello">Hello world</a> -->
+      </nav>
+      <!-- content -->
+      <div class="content">
+         <div class="model">
+            <img src="model2.png" alt="">
+         </div>
+         <div class="main-text">
+            <h1>Halo, Nama Saya Huda</h1>
+            <p>Lorem ipsum sedolornya si amet sing wonge paling elit<br>
+               Lorem ipsum sedolornya si amet sing wonge paling elit
+            </p>
+            <a href="#" class="btn-portofolio">View Portofolio</a>
+            <a href="#" class="btn-portofolio">Hire Me</a>
+         </div>
+      </div>
+   </section>
+   <!-- Profil -->
+
+   <!-- Skill -->
+   <section id="skill">
+      <div class="skill-text">
+         <!-- heading -->
+         <div class="skill-heading">
+            <span> My skill</span>
+            <h2>My experience</h2>
+         </div>
+         <div class="s-box-container">
+            <div class="skill-box">
+               <div class="s-box-text">
+                  <strong>PHP Native</strong><a class="btn-skill">Expert</a>
+                  <p>Lorem ipsum sedolornya si amet sing wonge paling elit</p>
+               </div>
+            </div>
+            <div class="skill-box">
+               <div class="s-box-text">
+                  <strong>Laravel</strong><a class="btn-skill">Good</a>
+                  <p>Lorem ipsum sedolornya si amet sing wonge paling elit</p>
+               </div>
+            </div>
+            <div class="skill-box">
+               <div class="s-box-text">
+                  <strong>Codeigniter</strong><a class="btn-skill">Good</a>
+                  <p>Lorem ipsum sedolornya si amet sing wonge paling elit</p>
+               </div>
+            </div>
+            <div class="skill-box">
+               <div class="s-box-text">
+                  <strong>HTML, CSS and Javascript</strong><a class="btn-skill">Good</a>
+                  <p>Lorem ipsum sedolornya si amet sing wonge paling elit</p>
+               </div>
+            </div>
+            <div class="skill-box">
+               <div class="s-box-text">
+                  <strong>Database Management</strong><a class="btn-skill">Good</a>
+                  <p>Lorem ipsum sedolornya si amet sing wonge paling elit</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- image -->
+      <div class="skill-img">
+         <img src="model.png" alt="">
+      </div>
+   </section>
+</body>
+
+</html>
